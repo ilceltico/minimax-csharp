@@ -10,5 +10,6 @@
     <Folder Include="core\framework\" />
     <Folder Include="core\adversarial\" />
     <Folder Include="tictactoe\" />
+    <Folder Include="connectfour\" />
   </ItemGroup>
 </Project>

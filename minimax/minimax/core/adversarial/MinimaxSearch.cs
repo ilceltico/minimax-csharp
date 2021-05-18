@@ -6,7 +6,6 @@ namespace minimax.core.adversarial
     /**
      * <summary>
      * Artificial Intelligence A Modern Approach (3rd Edition): page 169.
-     * Addition of a depth parameter to handle iterative deepening approaches.
      * 
      * @author Federico Stella
      * </summary>
