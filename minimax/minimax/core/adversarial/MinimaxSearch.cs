@@ -17,13 +17,6 @@ namespace minimax.core.adversarial
 		private IGame<S, A, P> game;
 		private Metrics metrics = new Metrics();
 
-		/**
-		 * Creates a new search object for a given game.
-		 */
-		public static MinimaxSearch<S, A, P> createFor(IGame<S, A, P> game)
-		{
-			return new MinimaxSearch<S, A, P>(game);
-		}
 
 		public MinimaxSearch(IGame<S, A, P> game)
 		{
@@ -35,7 +28,7 @@ namespace minimax.core.adversarial
 			metrics = new Metrics();
 			metrics.Set(METRICS_NODES_EXPANDED, 0);
 
-			A result = default;
+			A result = game.GetActions(state)[0];
 			double resultValue = double.NegativeInfinity;
 			P player = game.GetPlayer(state);
 			foreach (A action in game.GetActions(state))

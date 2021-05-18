@@ -3,6 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>minimax</RootNamespace>
+    <StartupObject>minimax.connectfour.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
