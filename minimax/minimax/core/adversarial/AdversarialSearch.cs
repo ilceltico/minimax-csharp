@@ -9,6 +9,11 @@ namespace minimax.core.adversarial
     /// move, method <c>makeDecision</c> returns only one action, not a
     /// sequence of actions.
     ///
+    /// Original authors:
+    /// @author Ravi Mohan
+    /// @author Ruediger Lunde
+    ///
+    /// 
     /// @author Federico Stella
     /// </summary>
     /// <typeparam name="S">The type used to represent states</typeparam>
