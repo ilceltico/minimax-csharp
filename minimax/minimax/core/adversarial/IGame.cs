@@ -30,6 +30,11 @@ namespace minimax.core.adversarial
      * player is charged an entry fee of 1/2.</item>
      * </list>
      * 
+     * Original authors:
+     * @author Ravi Mohan
+     * @author Ruediger Lunde
+     * 
+     * 
      * @author Federico Stella
      * </summary>
      */

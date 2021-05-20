@@ -4,6 +4,14 @@ using minimax.core.framework;
 
 namespace minimax.core.adversarial
 {
+    /// <summary>
+    /// A class that handles iterative deepening approaches for adversarial searches.
+    ///
+    /// @author Federico Stella
+    /// </summary>
+    /// <typeparam name="S"></typeparam>
+    /// <typeparam name="A"></typeparam>
+    /// <typeparam name="P"></typeparam>
     public class IterativeDeepening<S, A, P> : AdversarialSearch<S, A>
     {
         public enum Algorithm
