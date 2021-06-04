@@ -31,7 +31,7 @@ namespace minimax.core.adversarial
         /// </summary>
         /// <param name="game"></param>
         /// <param name="algorithm">Adversarial search algorithm to be used</param>
-        /// <param name="timeout">Maximum execution time in milliseconds</param>
+        /// <param name="timeout">Maximum execution time in milliseconds. -1 is unlimited</param>
         public IterativeDeepening(IGame<S, A, P> game, Algorithm algorithm, int timeout)
         {
             switch (algorithm)
